@@ -4,15 +4,7 @@ import {
   getAuth,
   createUserWithEmailAndPassword,
 } from "https://www.gstatic.com/firebasejs/9.13.0/firebase-auth.js";
-const firebaseConfig = {
-  apiKey: "AIzaSyDe6UXRcWW9CJNYcEt7w9Xg_iF1Iatl9-I",
-  authDomain: "watsapp-clone-1fe8f.firebaseapp.com",
-  projectId: "watsapp-clone-1fe8f",
-  storageBucket: "watsapp-clone-1fe8f.appspot.com",
-  messagingSenderId: "717417374111",
-  appId: "1:717417374111:web:4e7c48b82b6a0d3f785daa",
-  measurementId: "G-5K3EWWNNZS",
-};
+const firebaseConfig = {};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
