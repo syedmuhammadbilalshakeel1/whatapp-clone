@@ -1,12 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./Images/Favicon.watsapp.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!--Login-And-Signup-Page-Created -->
+    <div class="main">
+      <input type="checkbox" id="chk" aria-hidden="true" />
+
+      <div class="signup">
+        <form>
+          <label for="chk" aria-hidden="true">Sign up</label>
+          <input
+            id="fullName"
+            type="text"
+            name="txt"
+            placeholder="Full Name"
+            required=""
+          />
+          <input
+            id="fatherName"
+            type="text"
+            name="txt"
+            placeholder="Father Name"
+            required=""
+          />
+          <input
+            id="emailAddress"
+            type="email"
+            name="email"
+            placeholder="Email Address"
+            required=""
+          />
+          <input
+            id="password"
+            type="password"
+            name="pswd"
+            placeholder="Password"
+            required=""
+          />
+          <button id="signUp">Sign up</button>
+        </form>
+      </div>
+
+      <div class="login">
+        <form>
+          <label for="chk" aria-hidden="true">Login</label>
+          <input
+            id="loginEmailAdreess"
+            type="email"
+            name="email"
+            placeholder="Email"
+            required=""
+          />
+          <input
+            id="loginPassword"
+            type="password"
+            name="pswd"
+            placeholder="Password"
+            required=""
+          />
+          <button>Login</button>
+        </form>
+      </div>
+    </div>
+    <!-- Ending-Login-And-Signup-->
+
+    <script src="app.js" type="module"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
 </html>
